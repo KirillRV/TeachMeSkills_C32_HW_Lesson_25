@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import listener.LoginListener;
 import model.User;
-import model.UserRepository; // Предполагается наличие этого репозитория
+import model.UserRepository;
 
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
