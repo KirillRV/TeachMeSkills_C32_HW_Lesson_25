@@ -22,7 +22,7 @@ import java.util.logging.Logger;
 public class LoginListener implements HttpSessionListener, ServletContextListener {
 
     private static final Logger LOGGER = Logger.getLogger(LoginListener.class.getName());
-    private static final String LOG_FILE_PATH = "user_login_log.txt"; // Убрал абсолютный путь
+    private static final String LOG_FILE_PATH = "user_login_log.txt";
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     private Path logFilePath;
 
