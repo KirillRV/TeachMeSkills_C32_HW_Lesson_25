@@ -9,8 +9,6 @@ public class UserRepository {
     private final Map<String, User> users = new HashMap<>();
 
     public UserRepository() {
-        // Заполняем тестовыми данными (только для демонстрации!)
-        // В реальном приложении данные должны загружаться из базы данных
         users.put("user1", new User("user", "password", "user"));
         users.put("admin", new User("admin", "adminpass", "admin"));
     }
